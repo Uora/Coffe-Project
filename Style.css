@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #E6DCD1;
+}
+
+/** header **/
+.header {
+    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+    height: 400px;
+    background-position: center;
+}
+
+.roasting {
+    margin: 40px auto; 
+    padding: 20px 30px 40px 30px;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+    background-color: #F5F6EF; 
+}
+
+.roasting p {
+    text-align: center;
+    color: #444;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;   
+    font-size: 15px;
+}
+
+.spectrum div {
+    color: #fff;
+    overflow: auto;
+    opacity: 0.9;
+    /* font:; */
+    padding: 0px 20px;
+} 
+
+.spectrum p {
+    color: #fff;
+    text-align: left;
+}
+
+/* Rost Types */
+.green{
+    background-color: #388A73;
+}
+
+.light{
+    background-color: #936536;
+}
+
+.city {
+    background-color: #6c3803;
+}
+
+.vienna {
+    background-color: #3c1f02;
+}
+
+.italian {
+    background-color: #241201;
+}
+
+/* Typography */
+
+h1 {
+    color: #241201;
+    font-family: Lucida Bright,Georgia,serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80%;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    top: 25%;
+}
+
+h2 {
+    color: #783F04;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #301901;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* page elements */
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+
+li {
+    border-bottom: 1px solid #85521D;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+}
+
+p {
+    color: rgb(83, 83, 83);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+    font-weight: 550;
+}
+
+a {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
